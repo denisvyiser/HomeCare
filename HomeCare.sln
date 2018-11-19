@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{A538A677-DCDC-4847-AFC3-07178ABC97E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{B9592781-056C-4C44-9F2A-114540FB2761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{E381AFB7-A3FC-4715-B9C3-FACF17789245}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{AAA6B480-2105-4581-BFFB-5CBF84CB61AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{CFB8B8A6-82F4-465B-BCB1-47485EEB5561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{DAFF93D6-CA2B-42A6-910C-08A125030BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{29DDCB6C-4EFA-42A2-8E9F-60C0F68C8B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{F14CABB1-94FE-4D55-94FD-793B2C3B49CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14CABB1-94FE-4D55-94FD-793B2C3B49CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14CABB1-94FE-4D55-94FD-793B2C3B49CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14CABB1-94FE-4D55-94FD-793B2C3B49CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14CABB1-94FE-4D55-94FD-793B2C3B49CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAFF93D6-CA2B-42A6-910C-08A125030BC3} = {CFB8B8A6-82F4-465B-BCB1-47485EEB5561}
+		{29DDCB6C-4EFA-42A2-8E9F-60C0F68C8B37} = {CFB8B8A6-82F4-465B-BCB1-47485EEB5561}
+		{F14CABB1-94FE-4D55-94FD-793B2C3B49CB} = {AAA6B480-2105-4581-BFFB-5CBF84CB61AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2028E895-2131-4DDE-98E4-48093D80BCEC}
+	EndGlobalSection
+EndGlobal
